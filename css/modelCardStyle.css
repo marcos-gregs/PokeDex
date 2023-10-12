@@ -1,0 +1,127 @@
+
+
+.card_poke_model{
+    display: flex;
+    flex-direction: column;
+}
+.card_poke_model_top{
+    display: flex;
+    flex-direction: row;
+}
+.text_name_modal{
+    margin-left:11% ;
+}
+.card_poke_model_txt{
+    width: 70%;
+    
+}
+.ol_stats_modal{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    list-style: none;
+    row-gap: 2%;
+    column-gap: 2%;
+}
+.p_abilities{
+  margin-left: 12%;
+  margin-top: 3%;
+;
+}
+.ol_abilities_modal{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    list-style: none;
+    row-gap: 10%;
+    column-gap: 10%;
+    margin-bottom: 5%;
+}
+.ol_diameter_modal{
+    column-gap: 10%;
+    display: flex;
+    list-style: none;
+}
+@media (min-width:320px) and (max-width:475px)
+{
+
+    .card_poke_model{
+        display: flex;
+        flex-direction: column;
+    }
+    .card_poke_model_top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .card_poke_model_txt{
+        width: 100%;
+        
+    }
+    .ol_stats_modal{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        list-style: none;
+        margin-top: 2%;
+        row-gap: 2%;
+        column-gap: 2%;
+        margin-bottom: 5%;
+        margin-right: 2%;
+    }
+    
+    .ol_abilities_modal{
+        width: 90%;
+        justify-content: space-between;
+        display: flex;
+        list-style: none;
+        column-gap: 10%;
+    }
+    .ol_diameter_modal{
+        width: 90%;
+        justify-content: space-between;
+        column-gap: 10%;
+        display: flex;
+        list-style: none;
+    }
+    
+    
+    
+  
+}
+@media (min-width:300px) and (max-width:319px) 
+{
+    .card_poke_model{
+        display: flex;
+        flex-direction: column;
+    }
+    .card_poke_model_top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .card_poke_model_txt{
+        width: 100%;
+        
+    }
+    .ol_stats_modal{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        list-style: none;
+        margin-top: 2%;
+        row-gap: 2%;
+        column-gap: 2%;
+    }
+    
+    .ol_abilities_modal{
+        display: flex;
+        list-style: none;
+        column-gap: 10%;
+    }
+    .ol_diameter_modal{
+        column-gap: 10%;
+        display: flex;
+        list-style: none;
+    }
+    
+  
+}
